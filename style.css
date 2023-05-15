@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=ZCOOL+QingKe+HuangYou&display=swap');
+div{
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+#decks{
+    width: 100svw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+}
+.deck{
+    width: 200px;
+    height: 290px;
+    border-radius: 10px;
+    border: 4px solid rgb(222,222,222);
+    
+}
+body{
+    width: 100sdw;
+    height: 100sdh;
+    background-color: rgb(36,34,39);
+    text-align: center;
+    color: rgb(222,222,222);
+}
+#cardCount{
+    background-color: rgba(238, 83, 22, 0.774);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+#score{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    align-self: center;
+}
+button{
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background:none;
+    border: 2px solid rgb(222,222,222);
+    color: rgb(222,222,222);
+    border-radius: 10px;
+    outline: none;
+}
+html{
+    font-size: 22px;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+
+#yesDeck,#yes{
+    background-color: rgb(77, 150, 63);
+}
+
+#noDeck,#no{
+    background-color: rgb(160, 43, 43);
+}
+
+#cardDeck,#previousCard{
+    background-color: rgb(163, 187, 58);
+}
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+#result{
+    font-size: 26px;
+}
