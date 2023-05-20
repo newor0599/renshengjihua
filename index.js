@@ -101,7 +101,7 @@ var main_loop = setInterval(function(){
         }
     }
     else{
-        cardDeck.innerHTML = "<br>无"
+        cardDeck.innerHTML = "无"
     }
     
     //Button fucntion
@@ -112,7 +112,6 @@ var main_loop = setInterval(function(){
             yesCard.push(card[currentCard]);
             currentCard++;
             calScore();
-            console.log(currentCard)
         }
     }
     no.onclick = function(){
