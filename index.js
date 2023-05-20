@@ -147,7 +147,7 @@ var main_loop = setInterval(function(){
         }
     }
     else{
-        yesDeck.innerHTML = "<br>无"
+        yesDeck.innerHTML = "无"
     }
     if (noCard.length!=0){
         noDeck.innerHTML = ""
@@ -158,7 +158,7 @@ var main_loop = setInterval(function(){
         }
     }
     else{
-        noDeck.innerHTML = "<br>无"
+        noDeck.innerHTML = "无"
     }
 
     //function for Calculate score 
